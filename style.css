@@ -47,12 +47,21 @@ body {
     padding: 8px 16px;
     margin-top: 16px;
 }
+
+
 .div1 .image {
     margin-left: 24px;
     background-color: #2d3a4a;
-    flex: 1 0 auto;
+    flex: 1 0 0;
     color: white;
 }
+
+img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
 #big {
     font-weight: 700;
     font-size: 32px;
@@ -63,13 +72,13 @@ body {
 
 
 .div2 {
-    background-color: #2d3a4a;
+    background-color: #e2eaf4;
     padding: 36px 15%;
-    border-bottom: 2px solid #141a23;
+    border-bottom: 1px solid #b1bed2;
 }
 
 .div2 .title {
-    color: white;
+    color: #1F2937;
     font-size: 24px;
     font-weight: 700;
     text-align: center;
@@ -77,9 +86,9 @@ body {
 
 
 .div3 {
-    background-color: #2d3a4a;
+    background-color: #e2eaf4;
     padding: 36px 15%;
-    border-bottom: 2px solid #141a23;
+    border-bottom: 1px solid #b1bed2;
 }
 
 ul {
@@ -92,3 +101,4 @@ ul {
 li {
     list-style: none;
 }
+
