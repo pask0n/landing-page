@@ -2,4 +2,93 @@
 
 body {
     font-family: Rubik, sans-serif;
+    margin: 0;
+}
+
+
+.header {
+    background-color: #1F2937;
+    padding: 12px 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid #141a23;
+}
+.logo {
+    color: white;
+    font-weight: 700;
+    font-style: italic;
+    font-size: 24px;
+}
+.links {
+    color: #e5e7eb;
+}
+
+
+.div1 {
+    background-color: #1F2937;
+    padding: 64px 15%;
+    display: flex;
+    border-bottom: 2px solid #141a23;
+    
+}
+.div1 .texts {
+    padding: 16px;
+    color: #e5e7eb;
+    flex: 1;
+}
+.texts button {
+    font-family: Rubik, sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    background-color: rgb(255, 123, 41);
+    border: none;
+    border-radius: 4px;
+    padding: 8px 16px;
+    margin-top: 16px;
+}
+.div1 .image {
+    margin-left: 16px;
+    background-color: #2d3a4a;
+    flex: 1 0 auto;
+    color: white;
+}
+#big {
+    font-weight: 700;
+    font-size: 32px;
+    font-style: italic;
+    margin-bottom: 8px;
+    color: white;
+}
+
+
+.div2 {
+    background-color: #2d3a4a;
+    padding: 36px 15%;
+    border-bottom: 2px solid #141a23;
+}
+
+.div2 .title {
+    color: white;
+    font-size: 24px;
+    font-weight: 700;
+    text-align: center;
+}
+
+
+.div3 {
+    background-color: #2d3a4a;
+    padding: 36px 15%;
+    border-bottom: 2px solid #141a23;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 16px;
+}
+
+li {
+    list-style: none;
 }
