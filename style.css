@@ -27,7 +27,7 @@ body {
 
 .div1 {
     background-color: #1F2937;
-    padding: 64px 15%;
+    padding: 72px 15%;
     display: flex;
     border-bottom: 2px solid #141a23;
     
@@ -48,7 +48,7 @@ body {
     margin-top: 16px;
 }
 .div1 .image {
-    margin-left: 16px;
+    margin-left: 24px;
     background-color: #2d3a4a;
     flex: 1 0 auto;
     color: white;
