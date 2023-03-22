@@ -30,6 +30,7 @@ body {
     padding: 72px 15%;
     display: flex;
     border-bottom: 2px solid #141a23;
+    align-items: center;
     
 }
 .div1 .texts {
@@ -59,7 +60,6 @@ body {
 img {
     height: 100%;
     width: 100%;
-    object-fit: cover;
 }
 
 #big {
@@ -73,7 +73,7 @@ img {
 
 .div2 {
     background-color: #e2eaf4;
-    padding: 36px 15%;
+    padding: 64px 15%;
     border-bottom: 1px solid #b1bed2;
 }
 
@@ -82,28 +82,36 @@ img {
     font-size: 24px;
     font-weight: 700;
     text-align: center;
-    padding-bottom: 32px;
+    padding-bottom: 48px;
 }
 
 .container {
     display: flex;
-    justify-content: space-between;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 48px;
+    
 }
 
 .interest {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 0 0 160px;
     text-align: center;
 } 
 
 .container .img {
     background-color: #c8d2e2;
-    height: 120px;
-    width: 120px;
+    border-radius: 4px;
+    height: 160px;
+    width: 160px;
     margin-bottom: 12px;
 } 
 
 .div3 {
     background-color: #e2eaf4;
-    padding: 36px 15%;
+    padding: 64px 15%;
     border-bottom: 1px solid #b1bed2;
 }
 
