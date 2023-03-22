@@ -159,6 +159,18 @@ img {
     border-radius: 4px;
     font-family: Rubik, sans-serif;
     font-size: 16px;
+    margin-left: 8px;
+}
+
+.footer {
+    background-color: #1F2937;
+    padding: 16px 24px;
+    color: #e5e7eb;
+    text-align: center;
+}
+
+.footer a {
+    color: #e5e7eb;
 }
 
 ul {
